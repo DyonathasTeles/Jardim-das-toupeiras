@@ -4,9 +4,142 @@
   box-sizing: border-box;
 }
 
+:root {
+  font-size: 62.5%;
+}
+
 body {
   background-image: url(./assets/fundo.svg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
+
+
+}
+
+.toupeiras {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  margin-top: 15rem;
+
+  width: 100%;
+}
+
+.toupeira {
+  background-image: url(./assets/toupeira6.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+
+  width: 22.3rem;
+  height: 16.9rem;
+}
+
+.toupeiras .toupeira:nth-child(1){
+  animation: dowTop;
+  animation-duration: 800ms;
+  animation-fill-mode: forwards;
+  animation-delay: 40s;
+}
+
+.toupeiras .toupeira:nth-child(2) {
+  animation: dowTop;
+  animation-duration: 800ms;
+  animation-fill-mode: forwards;
+  animation-delay: 55s;
+}
+.toupeiras .toupeira:nth-child(3) {
+  animation: dowTop;
+  animation-duration: 800ms;
+  animation-fill-mode: forwards;
+  animation-delay: 45s;
+}
+.toupeiras .toupeira:nth-child(4) {
+  animation: dowTop;
+  animation-duration: 800ms;
+  animation-fill-mode: forwards;
+  animation-delay: 50s;
+}
+.toupeiras .toupeira:nth-child(5) {
+  animation: dowTop;
+  animation-duration: 800ms;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
+.toupeiras .toupeira:nth-child(6) {
+  animation: dowTop;
+  animation-duration: 800ms;
+  animation-fill-mode: forwards;
+  animation-delay: 7s;
+}
+.toupeiras .toupeira:nth-child(7) {
+  animation: dowTop;
+  animation-duration: 800ms;
+  animation-fill-mode: forwards;
+  animation-delay: 16s;
+}
+.toupeiras .toupeira:nth-child(8) {
+  animation: dowTop;
+  animation-duration: 800ms;
+  animation-fill-mode: forwards;
+  animation-delay: 35s;
+}
+.toupeiras .toupeira:nth-child(9) {
+  animation: dowTop;
+  animation-duration: 800ms;
+  animation-fill-mode: forwards;
+  animation-delay: 60s;
+}
+.toupeiras .toupeira:nth-child(10) {
+  animation: dowTop;
+  animation-duration: 800ms;
+  animation-fill-mode: forwards;
+  animation-delay: 21s;
+}
+.toupeiras .toupeira:nth-child(11) {
+  animation: dowTop;
+  animation-duration: 800ms;
+  animation-fill-mode: forwards;
+  animation-delay: 10s;
+}
+.toupeiras .toupeira:nth-child(12) {
+  animation: dowTop;
+  animation-duration: 800ms;
+  animation-fill-mode: forwards;
+  animation-delay: 28s;
+}
+
+@keyframes dowTop {
+  0% {
+    background-image: url(./assets/toupeira6.svg);
+  }
+
+  16.6% {
+    background-image: url(./assets/toupeira1.svg);
+  }
+
+  33.2% {
+    background-image: url(./assets/toupeira2.svg);
+  }
+
+  49.8% {
+    background-image: url(./assets/toupeira3.svg);
+  }
+
+  66.4% {
+    background-image: url(./assets/toupeira4.svg);
+  }
+
+  83% {
+    background-image: url(./assets/toupeira5.svg);
+  }
+
+
+
+
+
+
+  
 }
